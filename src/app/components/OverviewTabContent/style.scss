@@ -1,0 +1,21 @@
+.overview-tab-content-wrapper {
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 0 15px;
+
+    .item {
+        padding: 15px 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: #7b8786;
+        border-top: 1px solid #e9ebeb;
+    }
+
+    .heading {
+        border-top: none;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.15px;
+        color: #657372;
+    }
+}

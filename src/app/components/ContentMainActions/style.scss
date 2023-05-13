@@ -1,0 +1,25 @@
+.content-main-actions-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #d3d7d7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 15px;
+    position: absolute;
+    top: 20px;
+
+    .content-action {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ant-divider {
+        height: 18px;
+        top: 0;
+    }
+
+    .heading-action-image {
+    }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 
 import MutualActionProgress from "@/app/components/MutualActionProgress";
+import Tabs from "@/app/components/Tabs";
 
 import "./style.scss";
 
@@ -13,6 +14,7 @@ export default function Main({}: Props) {
                 <p className="heading">Project Scope Recap</p>
                 <MutualActionProgress />
             </div>
+            <Tabs />
         </section>
     );
 }
