@@ -1,0 +1,25 @@
+.progress-wrapper {
+    .ant-progress-steps-item:first-child {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .ant-progress-steps-item:last-child {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .progress-bar-info-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title {
+            font-size: 16px;
+            color: #7b8786;
+        }
+        .percentage {
+            font-size: 18px;
+            color: #00b686;
+            font-weight: 800;
+        }
+    }
+}
