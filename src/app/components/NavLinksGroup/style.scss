@@ -1,0 +1,19 @@
+.nav-links-group {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+    .ant-scroll-number {
+        width: 17px;
+        height: 17px;
+        font-size: 9px;
+        line-height: 15px;
+        padding: 0;
+        left: 3px;
+        top: 3px;
+    }
+
+    .nav-link {
+        cursor: pointer;
+    }
+}
