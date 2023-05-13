@@ -1,0 +1,22 @@
+.header-banner {
+    background-image: linear-gradient(
+            125deg,
+            rgba(250, 250, 250, 0) 60%,
+            rgba(250, 250, 250, 0.75) 60%
+        ),
+        url("../../../Images/hero-image.png");
+    height: 190px;
+    background-size: cover;
+    position: relative;
+    border-radius: 14px;
+
+    .content {
+        position: absolute;
+        font-size: 48px;
+        color: #000;
+        font-weight: 900;
+        width: 90px;
+        top: 35px;
+        right: 340px;
+    }
+}

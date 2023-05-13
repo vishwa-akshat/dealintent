@@ -1,5 +1,5 @@
 .header-wrapper {
-    padding: 20px 0;
+    padding: 20px 0 60px;
     .heading-wrapper {
         display: flex;
         justify-content: space-between;
@@ -9,6 +9,17 @@
             font-size: 35px;
             font-weight: 800;
             color: #04433b;
+        }
+    }
+
+    .header-banner-wrapper {
+        margin-top: 20px;
+        position: relative;
+
+        .banner-block-wrapper {
+            position: absolute;
+            bottom: -50px;
+            left: 20px;
         }
     }
 }
