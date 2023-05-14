@@ -40,5 +40,12 @@ const items = [
 ];
 
 export default function Tabs({}: Props) {
-    return <AntTabs onChange={onChange} type="card" items={items} />;
+    return (
+        <AntTabs
+            className="tabs-wrapper"
+            onChange={onChange}
+            type="card"
+            items={items}
+        />
+    );
 }
