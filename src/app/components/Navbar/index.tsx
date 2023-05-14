@@ -26,8 +26,8 @@ export default function Navbar() {
         <nav className="navbar-wrapper">
             <Logo />
             <NavLinksGroup />
-            <div onClick={showDrawer}>
-                <Image className="menu-icon" src={menuIcon} alt="menu open" />
+            <div className="menu-icon" onClick={showDrawer}>
+                <Image src={menuIcon} alt="menu open" />
             </div>
             <DrawerMenu isMenuOpen={isMenuOpen} onClose={onClose} />
         </nav>
