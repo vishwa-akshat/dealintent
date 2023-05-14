@@ -4,4 +4,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .menu-icon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar-wrapper {
+        .menu-icon {
+            display: inline-block;
+        }
+    }
 }

@@ -1,0 +1,63 @@
+.ant-drawer {
+    .ant-drawer-content-wrapper {
+        width: 100% !important;
+
+        .ant-drawer-content {
+            .ant-drawer-wrapper-body {
+                .ant-drawer-header {
+                    padding: 25px;
+                    border: none;
+
+                    .ant-drawer-header-title {
+                        justify-content: flex-end;
+                    }
+                }
+
+                .ant-drawer-body {
+                    padding: 20px 50px;
+
+                    .item-wrapper {
+                        border-bottom: 1px solid #e9ebeb;
+                        display: flex;
+                        align-items: center;
+                        gap: 18px;
+                        padding: 20px 0;
+
+                        .profile-info-wrapper {
+                            .name {
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: #233735;
+                            }
+                            .title {
+                                font-size: 12px;
+                                color: #7b8786;
+                            }
+                        }
+
+                        .nav-link {
+                            width: 30px;
+                            height: 30px;
+                        }
+
+                        .item-name {
+                            font-size: 16px;
+                            color: #233735;
+                        }
+
+                        .ant-scroll-number {
+                            background: #f97777;
+                            width: 17px;
+                            height: 17px;
+                            font-size: 9px;
+                            line-height: 16px;
+                            padding: 0;
+                            top: 3px;
+                            left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
