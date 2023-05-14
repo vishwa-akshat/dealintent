@@ -16,7 +16,6 @@ export default function MutualActionProgress({}: Props) {
                 strokeColor="#00B686"
                 percent={3}
                 steps={18}
-                size={[10, 8]}
                 showInfo={false}
             />
         </div>

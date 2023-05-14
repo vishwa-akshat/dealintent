@@ -20,3 +20,15 @@
         top: 0;
     }
 }
+
+@media only screen and (max-width: 425px) {
+    .content-main-actions-wrapper {
+        top: 10px;
+
+        .content-action {
+            .pdf-text {
+                font-size: 14px;
+            }
+        }
+    }
+}
