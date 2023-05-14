@@ -29,8 +29,7 @@ export default function TabContent({}: Props) {
                     <ContentMainActions />
                     <div className="info-wrapper">
                         <Image
-                            width={288}
-                            height={64}
+                            className="wework-logo"
                             src={weworkLogo}
                             alt="wework"
                         />
@@ -41,10 +40,10 @@ export default function TabContent({}: Props) {
                 </div>
                 <div className="content-share-wrapper">
                     <Badge count={8}>
-                        <Image width={30} height={30} src={chat} alt="wework" />
+                        <Image className="chat-logo" src={chat} alt="wework" />
                     </Badge>
                     <Divider type="vertical" />
-                    <Image width={30} height={30} src={share} alt="wework" />
+                    <Image className="share-logo" src={share} alt="wework" />
                 </div>
             </div>
         </div>
