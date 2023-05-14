@@ -5,4 +5,57 @@
     display: flex;
     align-items: center;
     gap: 14px;
+
+    .we-image {
+        width: 77px;
+        height: 77px;
+    }
+    .plus-image {
+        width: 18px;
+        height: 18px;
+    }
+    .salesforce-image {
+        width: 81px;
+        height: 81px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .banner-block {
+        padding: 8px 17px;
+
+        .we-image {
+            width: 53px;
+            height: 53px;
+        }
+        .plus-image {
+            width: 13px;
+            height: 13px;
+        }
+        .salesforce-image {
+            width: 57px;
+            height: 57px;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .banner-block {
+        border-radius: 7px;
+        padding: 6px 12px;
+        gap: 8px;
+
+        .we-image {
+            width: 36px;
+            height: 36px;
+        }
+        .plus-image {
+            width: 9px;
+            height: 9px;
+        }
+        .salesforce-image {
+            width: 39px;
+            height: 39px;
+        }
+    }
 }
