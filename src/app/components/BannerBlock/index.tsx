@@ -12,11 +12,10 @@ type Props = {};
 export default function BannerBlock({}: Props) {
     return (
         <div className="banner-block">
-            <Image width={77} height={77} src={weIcon} alt="wework" />
-            <Image width={18} height={18} src={plus} alt="plus" />
+            <Image className="we-image" src={weIcon} alt="wework" />
+            <Image className="plus-image" src={plus} alt="plus" />
             <Image
-                width={81}
-                height={81}
+                className="salesforce-image"
                 src={salesforceIcon}
                 alt="salesforce"
             />
