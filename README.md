@@ -26,6 +26,7 @@
 ### Technologies Used
 
 -   Next.js
+-   React
 -   SASS
 -   Typescript
 -   Ant-designs
